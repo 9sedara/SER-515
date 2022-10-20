@@ -1,4 +1,6 @@
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Facade {
 
@@ -13,12 +15,16 @@ public class Facade {
 	private Person thePerson;
 
 	public void beginFacade() throws IOException
-	{
-
+	{ Scanner sc = new Scanner(System.in);
+	  String uname=sc.next();
+	  String pwd=sc.next();
+      boolean tt=login(uname,pwd);
 	}
 
-	public boolean login() {
-		return false;
+	public boolean login(String uname,String pwd) throws FileNotFoundException {
+		login obj=new login();
+		boolean rt=obj.authenticate(uname,pwd);
+		return true;
 	}
 
 	public void addTrading() {
