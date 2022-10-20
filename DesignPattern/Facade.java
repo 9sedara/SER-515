@@ -13,7 +13,9 @@ public class Facade {
 	private Person thePerson;
 
 	public void beginFacade() throws IOException
-	{}
+	{
+
+	}
 
 	public boolean login() {
 		return false;
