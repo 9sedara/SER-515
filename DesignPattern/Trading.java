@@ -12,7 +12,7 @@ public class Trading {
 	{
 		System.out.println("Visitor design Pattern");
 		int result=0;
-		File file=new File("UseProduct");
+		File file=new File("data/UserProduct.txt");
 		Scanner sc=new Scanner(file);
 		while(sc.hasNextLine())
 		{
@@ -20,9 +20,10 @@ public class Trading {
 			if(st[1].equals(dish))
 			{
 				result++;
-				System.out.println("+result+" );
+
 			}
 		}
+		System.out.println(result+" users have ordered this dish");
 	}
 
 
