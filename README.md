@@ -11,6 +11,7 @@ Have added relavent data which include user credentials, menu opton and choice
  Login 
 
   Buyer or Seller login in with his credentials
+Facade pattern Used 
 1. Ask for user Name
 2. Ask for Password
 3. Authnticate the user name and password and provide menu
@@ -19,6 +20,7 @@ Have added relavent data which include user credentials, menu opton and choice
 =>
 
  Print menu
+Factory ad Nridge pattern
 1. Gives cchoice to user to choose the menu 
 2. there are two kinds of which are meat and produce(veg)
 3. User can choose to his choice 
