@@ -1,3 +1,5 @@
-public class Product {
+import java.io.*;
+import java.util.Scanner;
 
+public class Product {
 }
