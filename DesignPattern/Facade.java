@@ -45,7 +45,7 @@ public class Facade {
 			System.out.println("dish you like to order:");
 			String dish=sc1.next();
 			Trading t=new Trading();
-			t.Bidvalue(dish);
+			t.Bidvalue(item);
 
 		}
 

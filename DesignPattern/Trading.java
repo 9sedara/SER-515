@@ -8,7 +8,7 @@ public class Trading {
 	private Product p;
 
 	private OfferingList offerList;
-	public void Bidvalue(String dish) throws FileNotFoundException
+	public void Bidvalue(String item) throws FileNotFoundException
 	{
 		System.out.println("Visitor design Pattern");
 		int result=0;
@@ -17,13 +17,13 @@ public class Trading {
 		while(sc.hasNextLine())
 		{
 			String st[]=sc.nextLine().split(":");
-			if(st[1].equals(dish))
+			if(st[1].equals(item))
 			{
 				result++;
 
 			}
 		}
-		System.out.println(result+" users have ordered this dish");
+		System.out.println(result+" users have ordered this item");
 	}
 
 
