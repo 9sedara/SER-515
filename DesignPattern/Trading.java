@@ -7,18 +7,20 @@ public class Trading {
 
 	private Product p;
 
-	private Offerlist offerList;
+	private OfferingList offerList;
+	public void Bidvalue(String dish) throws FileNotFoundException
 	{
-		System.out.Println("Visitor design Pattern");
+		System.out.println("Visitor design Pattern");
 		int result=0;
 		File file=new File("UseProduct");
 		Scanner sc=new Scanner(file);
 		while(sc.hasNextLine())
 		{
-			String s[]=s.next.Line().split(":");
-			if(s[1].equals(dish))
+			String st[]=sc.nextLine().split(":");
+			if(st[1].equals(dish))
 			{
-				System.out.println("+result+" )
+				result++;
+				System.out.println("+result+" );
 			}
 		}
 	}

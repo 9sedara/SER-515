@@ -42,6 +42,11 @@ public class Facade {
 			ProductIterator pi = new ProductIterator();
 			pi.hasNext();
 
+			System.out.println("dish you like to order:");
+			String dish=sc1.next();
+			Trading t=new Trading();
+			t.Bidvalue(dish);
+
 		}
 
 
